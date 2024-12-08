@@ -9,26 +9,44 @@ I partnered with US-based office supply company Office Wizard to create an insig
 The dataset was thoroughly cleaned, removing duplicates, outliers, incorrect values, and redundant rows. Rows containing partial 2018 data were excluded to ensure accuracy and consistency.
 
 The dashboard features a clean, user-friendly design aligned with the company's branding. Each page uses a minimalist layout with a maximum of four visuals per page, supplemented by interactive buttons and slicers for seamless navigation and deeper analysis.
-### Page 1: Overview
 
-Focuses on yearly sales and profit trends, top regions, and growth metrics.
-Features a line chart, bar charts, slicer for year selection, and KPI cards for YoY growth and totals.
-
-### Page 2: Products
-
-Highlights sales and profit trends by product category, sub-category, and segment.
-Includes pie charts, bar charts, and interactive buttons for detailed sales and profit views.
-
-### Page 3: Profit and Loss Analysis
-
-Examines the relationship between discounts and loss-making products, identifying categories and products with high losses.
-Utilizes scatter plots, pie charts, and bar charts for a comprehensive analysis.
-
-## Key Features:
+## Power BI Dashboard
+The Power BI Dashboard has some key features. They are
 1. Dynamic Buttons: Interactive buttons switch between sales and profit views, providing tailored insights.
 2. Slicers: Enable filtering by year for granular analysis.
 3. Performance Metrics: Cards displaying total sales, profits, and YoY growth metrics at a glance.
 4. Theme Alignment: Customized design matching the company’s logo and brand identity.
+
+### Page 1: Overview
+![image alt](https://github.com/Anoy27/Office_Supply_Sales_Analysis/blob/916e625213afdeccdd6a49eab63faa7fdd3139d2/Port%201.jpg)
+
+Focuses on yearly sales and profit trends, top regions, and growth metrics.
+
+![image alt](https://github.com/Anoy27/Office_Supply_Sales_Analysis/blob/916e625213afdeccdd6a49eab63faa7fdd3139d2/Port%201.jpg)
+
+Features a line chart, bar charts, slicer for year selection, and KPI cards for YoY growth and totals.
+
+### Page 2: Products
+
+![image alt](https://github.com/Anoy27/Office_Supply_Sales_Analysis/blob/916e625213afdeccdd6a49eab63faa7fdd3139d2/Port%203.jpg)
+
+Highlights sales and profit trends by product category, sub-category, and segment.
+
+![image alt](https://github.com/Anoy27/Office_Supply_Sales_Analysis/blob/916e625213afdeccdd6a49eab63faa7fdd3139d2/Port%204.jpg)
+
+Includes pie charts, bar charts, and interactive buttons for detailed sales and profit views.
+
+### Page 3: Profit and Loss Analysis
+
+![image alt](https://github.com/Anoy27/Office_Supply_Sales_Analysis/blob/916e625213afdeccdd6a49eab63faa7fdd3139d2/port%205.jpg)
+
+Examines the relationship between discounts and loss-making products, identifying categories and products with high losses.
+
+![image alt](https://github.com/Anoy27/Office_Supply_Sales_Analysis/blob/916e625213afdeccdd6a49eab63faa7fdd3139d2/port%206.jpg)
+
+Utilizes scatter plots, pie charts, and bar charts for a comprehensive analysis.
+
+
 
 This project empowered the client to make informed decisions by presenting a clear, actionable story behind their sales and profit performance. The dashboard's intuitive interactivity and detailed insights impressed the stakeholders, including the investor.
 
