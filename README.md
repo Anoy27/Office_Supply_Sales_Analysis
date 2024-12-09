@@ -6,12 +6,21 @@ I partnered with US-based office supply company Office Wizard to create an insig
 4. The impact of discounts on loss-making products and identification of loss drivers.
 
 ## Data Preparation:
-The dataset was thoroughly cleaned, removing duplicates, outliers, incorrect values, and redundant rows. Rows containing partial 2018 data were excluded to ensure accuracy and consistency.
+The dataset was thoroughly cleaned. Although, there were no duplicates incorrect values, and redundant rows. But there were inconsistencies like wrong formatting, only 1 month of data for 2018, outliers, and some unimportant columns like customer ID, product ID, postal code, and country. So, I corrected the formats and removed all of the redundant columns and rows containing partial 2018. However, after a thorough inspection, I found the outliers to be important for the analysis. So, I kept them. 
 
-The dashboard features a clean, user-friendly design aligned with the company's branding. Each page uses a minimalist layout with a maximum of four visuals per page, supplemented by interactive buttons and slicers for seamless navigation and deeper analysis.
+## Feature Engineering
+Firstly, I have added a new loss column as the profit column has some negative values so added them inside this loss column. This column also helped me find the loss-making products. For the analysis, I have also added a few calculated columns. They are
+1. Product_Price,
+2. Profit_Margin,
+3. Delivery_Time,
+4. Year and
+5. Discount_Amount
+They have helped me discover important insigts from the dataset. 
+
 
 ## Power BI Dashboard
-The Power BI Dashboard has some key features. They are
+
+The dashboard features a clean, user-friendly design aligned with the company's branding. Each page uses a minimalist layout with a maximum of four visuals per page, supplemented by interactive buttons and slicers for seamless navigation and deeper analysis. The Power BI Dashboard has some key features. They are
 1. Dynamic Buttons: Interactive buttons switch between sales and profit views, providing tailored insights.
 2. Slicers: Enable filtering by year for granular analysis.
 3. Performance Metrics: Cards displaying total sales, profits, and YoY growth metrics at a glance.
